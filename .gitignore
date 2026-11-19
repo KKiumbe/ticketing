@@ -1,0 +1,17 @@
+# Only api/ and web/ (+ deploy files) live in this repo
+/mobile/
+/sikika-tickets/
+*.zip
+
+node_modules/
+dist/
+.next/
+.next-dev/
+*.tsbuildinfo
+.DS_Store
+
+# Secrets: never commit
+.env
+api/.env
+api/.env.production
+.env.local
